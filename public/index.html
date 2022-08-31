@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+        </style>
+        
+</head>
+<body>
+    <div class="header">The Library</div>
+<div class="container">
+    
+    <div class="form">
+        <div class="form-container">
+    <form class = 'trial' id="trial" >
+                <ul class="first">
+                    <li>
+                        <label for="Title">Title</label>
+                        <input type="text" minlength="4" id="Title" name="Title" />   
+                    </li>
+                    <li>
+                        <label for="Author">Author</label>
+                        <input type="text" minlength='4' id="Author" name="Author" />               
+                    </li>
+                </ul>
+                <ul class="second">
+                    <li>
+                        <label for="Pages">Pages</label>
+                        <input type="text" minlength='4' id="Pages" name="Pages" />
+                    </li>
+                    <li>
+                        <label>
+                            Read Status
+                            <select id="Status">
+                              
+                              <option value="Finished">Finished</option>
+                              <option value="Unfinished">Unfinished</option>
+                            </select>
+                            <button id = 'btn' form="trial" type="button">Add Book</button>
+                            
+                    </li>
+            </form>
+        </div>
+        </div>
+            <div id="bookcontainer">
+                <template>
+                <div class="book-card">
+                    <div class="title-card">Harry Potter</div>
+                    <div class="author-card">J.K Rowling</div>
+                    <div class="pages-card">365</div>
+                    <button class="status-card">Read</button>
+                    <button class="remove-card">Remove</button>
+                    
+                </div>
+            </template>
+            </div>
+            <div id = 'test'>
+                
+            </div>
+            <script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.10.1/firebase-firestore.js"></script>
+            <script src="test.js">
+
+            </script>
+</div>
+    
+</body>
+</html>

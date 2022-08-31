@@ -1,0 +1,140 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+}
+.container {
+    height: 100vh;
+    
+    display: flex;
+    
+}
+
+.header {
+    font-weight: bolder;
+    font-size: 42px;
+    color: white;
+    background-color: #EB4747;
+    height: 100px;
+    text-align: bottom;
+    display: flex;
+    align-items: flex-end;
+}
+
+.from-container {
+   
+}
+
+.form input[type='text'] {
+    border-radius: 15px;
+    width: 200px;
+    height: 25px;
+    
+}
+.second button {
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    box-shadow: 10 10 10 grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #EB4747;
+    color: white;
+    padding: 12px;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+}
+.trial {
+    
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.first,
+.second {
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+}
+#status {
+    margin: 20px;
+}
+
+.form {}
+
+.first {
+    
+    
+    
+}
+
+ul {
+    list-style: none;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    
+   
+    gap: 36px;
+    flex-shrink: 0;
+    width: 250px;
+    
+}
+
+form {
+    gap: 24px;
+    padding: 32px;
+}
+
+
+#bookcontainer {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+    flex-wrap: wrap;
+    flex-grow: 1;
+}
+.book-card {
+    height: 300px;
+    width: 250px;
+    border: 2px solid black;
+    background-color: #FFDEDE;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+.title-card {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.author-card {
+    font-weight: 700;
+    font-size: 24px;
+    color: black;
+}
+
+.pages-card {
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.status-card,
+.remove-card {
+    font-weight: 700;
+    font-size: 24px;
+    background-color: #FFDEDE;
+    border-radius: 25px;
+    width: 125px;
+    height: 40px;
+}
